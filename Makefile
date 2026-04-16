@@ -9,3 +9,6 @@ all:
 
 clean:
 	rm -f $(OUT)
+init:
+	mkdir -p images/encode
+	mkdir -p images/decode
